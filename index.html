@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 20</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="title">Кого или что будем искать?</h1>
+            <form name="newSearch">
+                <div class="searchWrapper">
+                    <select id="starWarsElement" class="search__selectElement">
+                        <option value="people" selected>Людей</option>
+                        <option value="planets">Планеты</option>
+                        <option value="films">Фильмы</option>
+                    </select>
+                    <input type="number" id="numberElement" class="search__selectNumber" placeholder="Введите номер">
+                    <button type="submit" id="forwardButton" class="button">Вперед!</button>
+                </div>
+            </form>
+
+            <div class="resultContainer">
+            </div>
+
+        </div>
+    </div>
+    <script src="./assets/scripts/index.js">
+    </script>
+</body>
+
+</html>
